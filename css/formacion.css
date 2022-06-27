@@ -1,0 +1,74 @@
+.formacioon__container {
+    /* background-color: #568080; */
+    /* 
+    margin-top: 0.1rem ;
+    display: flex;
+    flex-direction: column; */
+
+  margin-top: 5rem;
+  height: 350px;
+}
+
+.formacion__titulo {
+  text-align: center;
+  padding: 1rem;
+}
+
+.formacion__container--imagenes {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.formacion__imagen--alura {
+  background: url(../img/alura.png);
+  background-size: cover;
+  width: 30%; 
+  height: 200px;
+  margin-top: -3rem;
+}
+
+.formacion__imagen--platzi {
+  background: url(../img/platzi-2.png);
+  background-size: cover;
+  width: 30%;
+  height: 240px;
+  margin-top: -5rem;
+}
+
+.formacion__imagen--education {
+  background: url(../img/education\ it.png);
+  background-size: cover;
+  width:30%; 
+  height: 200px;
+}
+
+/* .formacion__data--alura {
+  margin-top: 0rem;
+  display: flex;
+  align-content: space-between;
+} */
+
+.formacion__texto--alura {
+  margin-top: 15rem;
+}
+
+/* .formacion__data--platzi{
+  margin-top: 0rem;
+  display: flex;
+  align-content: space-between;
+} */
+
+.formacion__texto--platzi {
+  margin-top: 17rem;
+}
+
+/* .formacion__data--education {
+  margin-top: 0rem;
+  display: flex;
+  align-content: space-between;
+} */
+
+.formacion__texto--education {
+  margin-top: 12rem;
+}

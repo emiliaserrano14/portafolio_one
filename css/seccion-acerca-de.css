@@ -1,0 +1,69 @@
+.contenido__principal {
+   display: block;
+   margin-top: -0.8rem;
+}
+
+.container__principal {
+    display: flex;
+    background-color: #eaeaea;
+    margin-top: 1rem;
+    flex-direction: column;
+    height: 350px;
+
+}
+
+.contenido__principal--titulo {
+    width: 60%;
+    justify-content: center;
+    margin-top: -17rem;
+    margin-left: 29rem;
+    display: inline-flex;
+}
+
+.contenido__principal--parrafo {
+    font-size: 1.2rem;
+    margin-left: 26rem;
+    text-align: center;
+    
+}
+
+.contenido__principal--imagen {
+    background: url(../img/imagen-perfil.jpeg);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.contenido__principal--nav {
+    display: flex;
+
+    justify-content: flex-end;
+    margin-left: 324px;
+    margin-top: 1rem;
+    margin-right: 7rem;
+}
+
+.contenido__principal--link {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    line-height: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffe7 0, #ffffdd 10%, #ffffd3 20%, #fdfdc9 30%, #eff8bf 40%, #def2b5 50%, #ccecac 60%, #bae7a6 70%, #a7e2a3 80%, #93dea1 90%, #7fdaa2 100%);
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    text-align: center;
+    border: solid 1px;
+
+
+}
+
+.contenido__principal--link:hover {
+    background-image: linear-gradient(180deg, #ffffaf 0, #ffffa6 25%, #f2f29d 50%, #d7dd94 75%, #bfca8b 100%);
+    color: black;
+    border: solid 2px black;
+}

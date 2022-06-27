@@ -1,0 +1,35 @@
+.container__sobre{
+   margin-top: 5rem;
+}
+
+.sobre__mi--container {
+    
+    height: 300px;
+    margin-top: -1.5rem;
+}
+
+.sobre__mi--titulo {
+   text-align: left;
+   font-size: 2rem;
+   padding: 0px;
+   margin-left: 30px;
+}
+
+.sobre__mi--parrafo {
+    font-size: 1.2rem;
+    text-align: left;
+    justify-content: center;
+    display: inline-flex;
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+.sobre__mi--imagen {
+    background: url(../img/firma-removebg-preview.png) ;
+    height: 72px;
+    width: 270px;
+    margin-top: 0.8rem;
+    background-size: cover;
+    margin-left: 63%;
+}

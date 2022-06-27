@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 5rem;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer__home {
+   
+    display: block;
+    
+    width: 42px;
+    height: 42px;
+    
+    margin: 2rem 1rem;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.footer__home--icono {
+    display: flex;
+}
+
+.footer__telefono, .footer__email{
+    padding: 20px;
+	margin-bottom: 0;
+	color: #000;
+	text-decoration: none;
+	transition: .5s;
+    font-size: 1rem;
+}
+
+
+
+

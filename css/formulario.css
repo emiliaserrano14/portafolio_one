@@ -1,0 +1,74 @@
+.formulario {
+    height: 470px;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.formulario__imagen {
+    background: url(../img/telefono-formulario-removebg-preview.png);
+    background-size: cover;
+    height: 275px;
+    width: 37%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.formulario__contacto {
+    width: 50%;
+    margin-left: 1rem;
+    text-align: -webkit-center;
+}
+
+.formulario__titulo {
+    text-align: center;
+}
+
+.formulario__input, form {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 70%;
+    border: none;
+    border-bottom: solid 1px #232323;
+  
+}
+
+.formulario__input {
+    height: 10px;
+    background: none;
+}
+
+form {
+    border: none;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.formulario__input--mensaje {
+   height: 50px;
+   width: 80%;
+   background:none;
+}
+
+.formulario__enviar{
+    width: 40%;
+    padding: 10px 0;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #0c00ff70;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.formulario__enviar:hover{
+    background: rgb(18, 15, 216);
+    transform: scale(1.2);
+}

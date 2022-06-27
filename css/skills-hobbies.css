@@ -1,0 +1,108 @@
+.contenido__skills{
+    /* background: #bdbdbd; */
+	background-image: linear-gradient(180deg, #a7a78f 0, #8a8a7d 25%, #909cb4 50%, #7183a5 75%, #73746f 100%);   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.container__skills {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.contenido__skills--titulo, .contenido__hobbies--titulo {
+   text-align: center;
+}
+
+.contenidoPrincipal__skills--link, .contenidoPrincipal__hobbies--link {
+    display: flex;
+    width: 23%;
+	height: 100px;
+	background-color: none;
+	
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.contenidoPrincipal__skills--link a, .contenidoPrincipal__hobbies--link a {
+    text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contenidoPrincipal__skills--link:nth-child(1) a:before {
+	background: url(../img/js.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.contenidoPrincipal__skills--link:nth-child(2) a:before {
+	background: url(../img/css-3.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.contenidoPrincipal__skills--link:nth-child(3) a:before {
+	background: url(../img/bootstrap.png) no-repeat;
+	background-size: cover;
+}
+
+.contenidoPrincipal__skills--link:nth-child(4) a:before {
+	background: url(../img/html.png) no-repeat;
+	background-size: cover;
+}
+
+.contenidoPrincipal__skills--link:hover, .contenidoPrincipal__hobbies--link:hover {
+	/* box-shadow: 4px 4px 4px #CCC; */
+	opacity: 0.5;
+}
+
+.contenidoPrincipal__skills--link a:before, .contenidoPrincipal__hobbies--link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+.contenido__skills--link, .contenido__hobbies--link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal__hobbies--link:nth-child(1) a:before {
+	background: url(../img/aprendizaje.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.contenidoPrincipal__hobbies--link:nth-child(2) a:before {
+	background: url(../img/peliculas.png) no-repeat;
+	background-size: cover;
+	
+}
+
+.contenidoPrincipal__hobbies--link:nth-child(3) a:before {
+	background: url(../img/deportes.png) no-repeat;
+	background-size: cover;
+}
+
+.contenidoPrincipal__hobbies--link:nth-child(4) a:before {
+	background: url(../img/nota-musical.png) no-repeat;
+	background-size: cover;
+}
+
+.contenidoPrincipal__hobbies--link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
